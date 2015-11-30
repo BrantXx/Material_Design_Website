@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+}
+
+#header {
+  height: 6em;
+}
+
+#menu {
+  background: #2196F3;
+  width: auto;
+  height: 6em;
+  line-height: 6em;
+  cursor: default;
+  position: relative;
+}
+
+#l_menu {
+  width: 20%;
+  height: 3em;
+  float: left;
+  margin-right: 2em;
+  color: #FFF;
+  font-size: 2em;
+  vertical-align: middle;
+  position: relative;
+  text-align: center;
+}
+
+.logo {
+  margin: auto;
+}
+
+#c_menu {
+  width: 46.66%;
+  height: 6em;
+  word-spacing: .3em;
+  float: left;
+  position: relative;
+}
+
+#r_menu {
+  width: 33.33%;
+  height: auto;
+  float: left;
+  position: relative;
+}
+
+#pcont {
+  background: white;
+  height: 1000px;
+  width: auto;
+}
+
+.mbtn {
+  text-align: center;
+  vertical-align: middle;
+  color: #FFF;
+  float: left;
+  position: relative;
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+  letter-spacing: .2em;
+  -webkit-transition: background .25s linear;
+  -moz-transition: background .25s linear;
+  -ms-transition: background .25s linear;
+  -o-transition: background .25s linear;
+  transition: background .25s linear;
+}
+
+.mbtn:hover {
+  background: #1976D2;
+  -webkit-transition: background .25s linear;
+  -moz-transition: background .25s linear;
+  -ms-transition: background .25s linear;
+  -o-transition: background .25s linear;
+  transition: background .25s linear;
+}
+
+.active_mbtn {
+  background: #1976D2;
+}
+
+#footer {
+  color: #FFF;
+  background: #000;
+  width: 5em;
+  height: 2em;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  cursor: default;
+}
